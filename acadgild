@@ -1,0 +1,10 @@
+Yes we can overload a method with same return type
+suppose consider two examples
+
+1.   int Sum(int a,int b)
+2.   int Sum(int a,int b,int c)
+
+Overloading will work with both of the above defined functions
+both of them will have same return type ie Integer
+if we call Sum(2,3) then the 1st function will be called.
+but if we call Sum(2,3,4)  then the 2nd function will be called.
